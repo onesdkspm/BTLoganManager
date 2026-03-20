@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  BTLoganManager
+
+  Created by ak on 2023/3/22.
+  
+*/
+"btLoganDone" = "확신하는";
+"btLoganTimeSpaceMsg" = "%d분마다 한 번만 요청할 수 있습니다. 성공적으로 요청했습니다. 잠시만 기다려 주세요.";
+"btLoganSuccessTipMsg" = "스크린샷을 저장하는 것이 좋습니다";
+"btLoganDefaultMsg" = "요청에 실패했습니다. 나중에 다시 시도하십시오.";
