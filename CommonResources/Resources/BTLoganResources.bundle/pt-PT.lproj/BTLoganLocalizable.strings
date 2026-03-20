@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  BTLoganManager
+
+  Created by ak on 2023/3/22.
+  
+*/
+"btLoganDone" = "Claro";
+"btLoganTimeSpaceMsg" = "Você só pode reportar uma vez a cada %d minutos, você reportou com sucesso, por favor aguarde um momento";
+"btLoganSuccessTipMsg" = "Recomenda-se salvar capturas de tela";
+"btLoganDefaultMsg" = "Falha na solicitação, tente novamente mais tarde";

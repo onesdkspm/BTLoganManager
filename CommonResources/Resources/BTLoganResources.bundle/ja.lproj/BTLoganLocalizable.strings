@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  BTLoganManager
+
+  Created by ak on 2023/3/22.
+  
+*/
+"btLoganDone" = "もちろん";
+"btLoganTimeSpaceMsg" = "%d 分ごとに 1 回だけ報告できます。正常に報告されました。しばらくお待ちください";
+"btLoganSuccessTipMsg" = "スクリーンショットを保存することをお勧めします";
+"btLoganDefaultMsg" = "リクエストに失敗しました。しばらくしてからもう一度お試しください";
