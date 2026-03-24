@@ -17,7 +17,7 @@ let package = Package(
         .binaryTarget(
             name: "BTLoganManager",
             url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTLoganManager/2.0.0/BTLoganManager.xcframework.zip",
-            checksum: "13adaf49afb448372b5ae0a109f7a6f77e47e0ae9043af01d4fd46e868ab8a0d"
+            checksum: "54e279921ca19a2dd7aa8bbbf72714531b0f294b10fa7b62db57a4c699d6083f"
         ),
         
         // ========== Bundle Resources ==========
