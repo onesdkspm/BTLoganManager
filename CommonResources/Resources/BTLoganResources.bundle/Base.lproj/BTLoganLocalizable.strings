@@ -7,6 +7,7 @@
 */
 "btLoganDone" = "Done";
 "btLoganTimeSpaceMsg" = "You can only Request once every %d minutes, You have Requested successfully, Please wait.";
-"btLoganSuccessTipMsg" = "It is recommended to save screenshot";
+"btLoganSuccessTipMsg" = "Please take a screenshot and save this ID.";
 "btLoganDefaultMsg" = "Request failed, please try again later";
-
+"btLoganDefaultSuccessMsg" = "Log upload succeeded";
+"btLoganContactMsg" = "When contacting customer service about this issue, provide this ID so we can locate and resolve it quickly.";

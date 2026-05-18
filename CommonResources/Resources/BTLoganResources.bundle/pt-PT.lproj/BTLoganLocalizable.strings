@@ -7,5 +7,7 @@
 */
 "btLoganDone" = "Claro";
 "btLoganTimeSpaceMsg" = "Você só pode reportar uma vez a cada %d minutos, você reportou com sucesso, por favor aguarde um momento";
-"btLoganSuccessTipMsg" = "Recomenda-se salvar capturas de tela";
+"btLoganSuccessTipMsg" = "Recomenda-se guardar este ID com uma captura de ecrã.";
 "btLoganDefaultMsg" = "Falha na solicitação, tente novamente mais tarde";
+"btLoganDefaultSuccessMsg" = "Log enviado com sucesso";
+"btLoganContactMsg" = "Ao contactar o apoio ao cliente sobre o problema, indique este ID para nos ajudar a localizar e resolver rapidamente.";

@@ -7,7 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "BTLoganManager",
-            targets: ["BTLoganManager", "BTLoganManagerCommonResources"]
+            targets: ["BTLoganManager", "CommonResources"]
         ),
     ],
     dependencies: [
@@ -16,15 +16,15 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "BTLoganManager",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTLoganManager/2.0.1-dev-1420704/BTLoganManager.xcframework.zip",
-            checksum: "c34acddde4128d63800a257386eda96c1ea788efc12020693e95799bab4a221b"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTLoganManager/1.0.10-dev-1444331/BTLoganManager.xcframework.zip",
+            checksum: "23fe5e8c2fd2b4c036340419a7de1fcbf3670b3f95849445489f786114e19556"
         ),
         
         // ========== Bundle Resources ==========
         .target(
-            name: "BTLoganManagerCommonResources",
+            name: "CommonResources",
             dependencies: [],
-            path: "BTLoganManagerCommonResources",
+            path: "CommonResources",
             exclude: ["Resources"],
             sources: ["Placeholder.swift"],
             resources: [.copy("Resources")],
