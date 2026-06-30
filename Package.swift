@@ -7,17 +7,33 @@ let package = Package(
     products: [
         .library(
             name: "BTLoganManager",
-            targets: ["BTLoganManager", "CommonResources"]
+            targets: ["BTLoganManagerWrapper", "CommonResources"]
         ),
     ],
     dependencies: [
+        .package(url: "https://github.com/onesdkspm/BTSDKUIKitCore.git", from: "1.0.0"),
     ],
     targets: [
+        // ========== Wrapper Target（统一管理系统依赖）==========
+        .target(
+            name: "BTLoganManagerWrapper",
+            dependencies: [
+                .byName(name: "BTLoganManager"),
+                .product(name: "BTSDKUIKitCore", package: "BTSDKUIKitCore"),
+            ],
+            path: "BTLoganManagerWrapper",
+            linkerSettings: [
+                // iOS 系统框架
+                
+                // 系统库
+            ]
+        ),
+        
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "BTLoganManager",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTLoganManager/1.1.0-dev-1444334/BTLoganManager.xcframework.zip",
-            checksum: "11479d831e3961e25aede154997d39876b63d3de126d18e8daf06df6ca8d8860"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTLoganManager/1.1.0-dev-1474844/BTLoganManager.xcframework.zip",
+            checksum: "3aa53d0d2ce7c1d0227314674151f4214724c6a4d73d359ce5c412f4a1ee5af2"
         ),
         
         // ========== Bundle Resources ==========
