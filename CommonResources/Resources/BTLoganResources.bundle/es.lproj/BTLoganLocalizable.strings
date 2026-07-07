@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  BTLoganManager
+
+  Created by ak on 2023/3/22.
+  
+*/
+"btLoganDone" = "Seguro";
+"btLoganTimeSpaceMsg" = "Solo puede informar una vez cada %d minutos, ha informado con éxito, espere un momento";
+"btLoganSuccessTipMsg" = "Se recomienda guardar este ID con una captura de pantalla.";
+"btLoganDefaultMsg" = "Solicitud fallida, inténtalo de nuevo más tarde";
+"btLoganDefaultSuccessMsg" = "Registro subido correctamente";
+"btLoganContactMsg" = "Proporcione este ID al contactar con atención al cliente sobre el problema; nos ayudará a localizarlo y resolverlo rápidamente.";
