@@ -11,7 +11,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/onesdkspm/BTSDKUIKitCore.git", from: "2.0.2"),
+        .package(url: "https://github.com/onesdkspm/BTSDKUIKitCore.git", from: "2.0.3"),
     ],
     targets: [
         // ========== Wrapper Target（统一管理系统依赖）==========
@@ -32,8 +32,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "BTLoganManager",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTLoganManager/2.0.2-dev-1481118/BTLoganManager.xcframework.zip",
-            checksum: "8a4bd7bf157c2ce781cb792929fec20418e574d13aaea1020834ee60acbf31c2"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTLoganManager/2.0.3-dev-1481419/BTLoganManager.xcframework.zip",
+            checksum: "a3af8465ec3e35d264d15a97080ce9b3caef4283dfae3a22c4412f76f0ce6c39"
         ),
         
         // ========== Bundle Resources ==========
